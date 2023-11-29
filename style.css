@@ -169,7 +169,6 @@ h6 {
   color: #fff;
   padding: 12px 25px;
   margin-left: 30px;
-  color: #fff;
   line-height: 1;
   border-radius: 50px;
 }
@@ -177,8 +176,8 @@ h6 {
 .getstarted:hover,
 .getstarted:focus:hover {
   background: #2b569c;
-  color: #fff;
 }
+
 
 .navbar .dropdown ul {
   display: block;
