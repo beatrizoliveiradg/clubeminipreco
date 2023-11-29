@@ -163,8 +163,8 @@ h6 {
   color: #2b569c;
 }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.getstarted,
+.getstarted:focus {
   background: #1d3a69;
   color: #fff;
   padding: 12px 25px;
@@ -174,8 +174,8 @@ h6 {
   border-radius: 50px;
 }
 
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
+.getstarted:hover,
+.getstarted:focus:hover {
   background: #2b569c;
   color: #fff;
 }
@@ -317,8 +317,8 @@ h6 {
   color: #2b569c;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.getstarted,
+.getstarted:focus {
   margin: 15px;
 }
 
@@ -496,6 +496,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
+  margin-top: 75px;
   padding: 15px 0;
   background-color: #f6f8fb;
   min-height: 40px;
