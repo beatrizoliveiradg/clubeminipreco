@@ -459,6 +459,18 @@ h6 {
   #hero .hero-img img {
     width: 80%;
   }
+
+  #hero .col-lg-6.order-lg-2 ::before {
+  content: "";
+  position: absolute;
+  right: -150%;
+  top: 40%;
+  width: 250%;
+  height: 200%;
+  z-index: -1;
+  background-color: #1d3a69;
+  transform: skewY(135deg);
+}
 }
 
 /*--------------------------------------------------------------
