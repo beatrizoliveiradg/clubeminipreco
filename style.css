@@ -436,6 +436,17 @@ h6 {
   #hero .hero-img img {
     width: 60%;
   }
+   #hero .col-lg-6.order-lg-2 ::before {
+  content: "";
+  position: absolute;
+  right: -100%;
+  top: 40%;
+  width: 250%;
+  height: 200%;
+  z-index: -1;
+  background-color: #1d3a69;
+  transform: skewY(135deg);
+}
 }
 
 @media (max-width: 768px) {
@@ -453,6 +464,17 @@ h6 {
   #hero .hero-img img {
     width: 70%;
   }
+   #hero .col-lg-6.order-lg-2 ::before {
+  content: "";
+  position: absolute;
+  right: -100%;
+  top: 45%;
+  width: 250%;
+  height: 200%;
+  z-index: -1;
+  background-color: #1d3a69;
+  transform: skewY(135deg);
+}
 }
 
 @media (max-width: 575px) {
@@ -463,8 +485,8 @@ h6 {
   #hero .col-lg-6.order-lg-2 ::before {
   content: "";
   position: absolute;
-  right: -150%;
-  top: 40%;
+  right: -100%;
+  top: 50%;
   width: 250%;
   height: 200%;
   z-index: -1;
