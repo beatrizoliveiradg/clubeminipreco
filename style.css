@@ -501,10 +501,12 @@ h6 {
   }
 
   .download-btn {
-    display: block;
-    margin-bottom: 10px; /* Adicionar espaço entre os botões */
+    display: inline-block; /* Tornar os botões exibidos em linha */
+    width: 45%; /* Definir uma largura igual para ambos os botões */
+    margin: 0 5px; /* Adicionar margem entre os botões */
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
